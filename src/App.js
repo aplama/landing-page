@@ -1,10 +1,13 @@
-import Navbar from "./Navbar";
+import Navbar from "./components/pages/Navbar";
+import Hero from "./components/pages/Hero";
+import Features from "./components/pages/Features";
 
 function App() {
   return (
     <div>
       <Navbar />
-      <h1>Hello World...</h1>
+      <Hero />
+      <Features />
     </div>
   );
 }
